@@ -8,12 +8,13 @@ Build-Depends: debhelper (>= 10.5.1),
                libswitchboard-2.0-dev,
                meson,
                valac (>= 0.22)
+               xf86-input-libinput
 Standards-Version: 4.1.1
 Homepage: https://github.com/elementary/switchboard-plug-mouse-touchpad
 
 Package: switchboard-plug-mouse-touchpad
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, xorg-xinput, libinput, xf86-input-libinput
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Enhances: switchboard
 Description: Mouse/Touchpad plug for Switchboard
  This plug configures mouse and touchpad.
