@@ -13,7 +13,7 @@ Homepage: https://github.com/elementary/switchboard-plug-mouse-touchpad
 
 Package: switchboard-plug-mouse-touchpad
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, xorg-xinput, libinput, xf86-input-libinput
 Enhances: switchboard
 Description: Mouse/Touchpad plug for Switchboard
  This plug configures mouse and touchpad.
