@@ -9,6 +9,7 @@ You'll need the following dependencies:
 * libgranite-dev
 * meson
 * valac
+* xf86-input-libinput
 
 Run `meson` to configure the build environment and then `ninja` to build
 
